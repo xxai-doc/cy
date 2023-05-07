@@ -7,3 +7,4 @@ Mae cod pen blaen y wefan yn ffynhonnell agored, croeso i chi helpu i wneud y go
 * [cod pen blaen](https://github.com/xxai-art/web)
 * [Pecynnau iaith ar gyfer y wefan gyfan](https://github.com/xxai-art/web/tree/main/i18n)
 * [Pecynnau iaith ar gyfer modiwlau mewngofnodi](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [Dogfennaeth Amlieithog y Wefan](https://github.com/xxai-doc)
