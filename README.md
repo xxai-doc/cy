@@ -17,14 +17,14 @@ Yr iaith raglennu pen blaen yw [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plu
 
 Adeiladu ar y 3 phrosiect canlynol
 
-### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
 
-Gall y templed marcio i lawr, gyda'r ôl-ddodiad `.mdt` , gyfeirio at ffeiliau allanol gyda chystrawen tebyg i `<+ ./coffee_plus/import.js>` .
+  Yr ôl-ddodiad yw `.mdt` , gallwch ddefnyddio'r gystrawen debyg i `<+ ./coffee_plus/import.js>` i gyfeirio at ffeiliau allanol, a chynhyrchu marcio i lawr gyda'r ôl-ddodiad `.md` .
 
-[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
 
-Ni fydd cyfieithiad Markdown yn cyfieithu codau a dolenni, a bydd yn storio brawddegau wedi'u cyfieithu. Os caiff y cyfieithiad ei addasu ond nad yw'r testun gwreiddiol wedi'i addasu, ni fydd ei gyflawni eto yn trosysgrifo addasiad y cyfieithiad.
+  Ni fydd cyfieithiad Markdown yn cyfieithu codau a dolenni, a bydd yn storio brawddegau wedi'u cyfieithu. Os caiff y cyfieithiad ei addasu ond nad yw'r testun gwreiddiol wedi'i addasu, ni fydd ei gyflawni eto yn trosysgrifo addasiad y cyfieithiad.
 
-[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
 
-Ffeiliau iaith ar gyfer cyfieithu gwefannau a gynhyrchir gan `yaml` .
+  Ffeiliau iaith ar gyfer cyfieithu gwefannau a gynhyrchir gan `yaml` .
