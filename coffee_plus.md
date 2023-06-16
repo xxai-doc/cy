@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , ychwanegwch rai nodweddion ar sail cystrawen coffeescript, gweler [coffee_plus](./coffee_plus.md) .
 
-* datgan newidyn
+## datgan newidyn
 
 ```
 + var1, var2
 ```
 
-* label datganiad
+## label datganiad
 
 `:$` i'w ddefnyddio gyda [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) .
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* mewnforio cyflym
+## mewnforio cyflym
 
 ```
 > zx/globals:
