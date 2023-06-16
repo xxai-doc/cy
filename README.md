@@ -1,8 +1,8 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+Argymhellir gosod nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) yn gyntaf, ac yna `direnv allow` ar ôl mynd i mewn i'r cyfeiriadur (bydd [yr .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) yn cael ei weithredu'n awtomatig ar ôl mynd i mewn i'r cyfeiriadur).
 
-Mae rhan o god y wefan yn ffynhonnell agored, croeso i chi helpu i wneud y gorau o'r cyfieithiad.
+Yr ystyr yw: cyfieithiad Tsieineaidd i Japaneeg, Corëeg, Saesneg, cyfieithiad Saesneg i bob iaith arall. Os mai dim ond Tsieinëeg a Saesneg rydych chi eisiau, gallwch chi ysgrifennu `zh: en` .
 
 ## cod pen blaen
 
@@ -31,15 +31,15 @@ Adeiladu ar y 3 phrosiect canlynol
 
 ### Cyfarwyddiadau Awtomeiddio Cyfieithu Dogfennau
 
-Gweler ystorfa [xxai-art/doc](https://github.com/xxai-art/doc)
+Gweler ystorfa god [xxai-art/doc](https://github.com/xxai-art/doc)
 
-Argymhellir gosod nodejs, [direnv](https://direnv.net) a [bun](https://github.com/oven-sh/bun) yn gyntaf, ac yna rhedeg `direnv allow` ar ôl mynd i mewn i'r cyfeiriadur.
+Argymhellir gosod nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) yn gyntaf, ac yna `direnv allow` ar ôl mynd i mewn i'r cyfeiriadur (bydd [yr .envrc](https://github.com/xxai-art/doc/blob/main/.envrc) yn cael ei weithredu'n awtomatig ar ôl mynd i mewn i'r cyfeiriadur).
 
-Er mwyn osgoi warysau rhy fawr wedi'u cyfieithu i gannoedd o ieithoedd, creais warws cod ar wahân ar gyfer pob iaith a chreu sefydliad i storio'r warws hwn
+Er mwyn osgoi'r sylfaen cod mawr a gyfieithwyd i gannoedd o ieithoedd, creais sylfaen cod ar wahân ar gyfer pob iaith a chreu sefydliad i storio'r sylfaen cod
 
-Bydd gosod y newidyn amgylchedd `GITHUB_ACCESS_TOKEN` ac yna rhedeg [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) yn creu'r warws yn awtomatig.
+Bydd gosod y newidyn amgylchedd `GITHUB_ACCESS_TOKEN` ac yna rhedeg [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) yn creu'r ystorfa cod yn awtomatig.
 
-Wrth gwrs, gallwch chi hefyd ei roi mewn warws.
+Wrth gwrs, gallwch chi hefyd ei roi mewn sylfaen cod.
 
 Cyfeirnod sgript cyfieithu [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Defnyddir Google API ar gyfer cyfieithu am ddim. Os na allwch gael mynediad i Go
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-Bydd y sgript cyfieithu yn cynhyrchu celc cyfieithu yn y cyfeiriadur `.i18n` , gwiriwch ef gyda `git status` a'i ychwanegu at y storfa god i osgoi cyfieithiadau ailadroddus.
+Bydd y sgript cyfieithu yn cynhyrchu storfa wedi'i chyfieithu yn y cyfeiriadur `.i18n` , gwiriwch ef gyda `git status` a'i ychwanegu at y storfa god i osgoi cyfieithiadau ailadroddus.
+
+Rhedwch `bunx i18n` bob tro y byddwch yn addasu'r cyfieithiad i ddiweddaru'r storfa.
+
+Os yw'r testun gwreiddiol a'r cyfieithiad yn cael eu haddasu ar yr un pryd, bydd y storfa'n ddryslyd, felly os ydych chi am addasu, dim ond un y gallwch chi ei addasu, ac yna rhedeg `bunx i18n` i ddiweddaru'r storfa.
